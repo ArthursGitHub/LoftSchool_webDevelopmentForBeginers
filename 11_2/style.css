@@ -1,0 +1,259 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:Arial,Tahoma,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px}body{margin:0;padding:0;font:1em/1.4em sans-serif;color:#353535}
+/*Copyright www.Master-CSS.com*/.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0;}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px;}
+
+body{
+  font: 1em/1.6em sans-serif;
+  color: #353535;
+  background: 
+    linear-gradient(0deg, #ddd 1px, transparent 1px),
+    linear-gradient(90deg, #ddd 1px, transparent 1px),
+    linear-gradient(0deg, #eee 1px, transparent 1px),
+    linear-gradient(90deg, #eee 1px, transparent 1px),
+    #f5f5f5;
+  background-size: 1px 100px, 100px 1px, 1px 20px, 20px 1px;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2{
+  border-top: 1px dashed #ccc;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+.main{
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 1px 1px 7px #999;
+}
+
+.block{
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+}
+
+.br{
+  background: #e5c200;
+  border-radius:20% 60%;
+  box-shadow: 1px 11px 11px #ccc;
+}
+
+.lg{
+  background: 
+    linear-gradient(135deg, #999 50%, #1f1f1f 50%, transparent 55%) no-repeat, 
+    #aa2323;
+  background-size: 100px 100px;
+}
+
+.rg{
+  background: 
+    radial-gradient(#e5c200, #9bb700);
+  border-radius:20% 60%;
+  box-shadow: 1px 11px 11px #ccc;
+}
+
+.rg2{
+  background: 
+    radial-gradient(#333, #222 25%, #eee 27%, transparent 29%) 0 0,
+    radial-gradient(#777, #777 25%, #eee 27%, transparent 29%) -25px 0,
+    radial-gradient(#777, #777 25%, #eee 27%, transparent 29%) 25px 0,
+    radial-gradient(#777, #777 25%, #eee 27%, transparent 29%) 0 -25px,
+    radial-gradient(#777, #777 25%, #eee 27%, transparent 29%) 0 25px,
+    #1f1f1f;
+  background-size: 100px;
+}
+
+.rlg{
+  background: repeating-linear-gradient(135deg, #aaa, #999 50px, #777 50px, #888 100px);
+}
+
+.rrg{
+  background: repeating-radial-gradient(circle at 30% 20%, #bbb, #bbb 50px, #ddd 50px, #ddd 100px);
+}
+
+/*Анимации*/
+.text{
+  margin: 80px 0;
+  text-align: center;
+}
+
+.text__link{
+  color: #fff;
+  background: #d00000;
+  padding: 20px;
+  font-size: 27px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, .19);
+  text-transform: uppercase;
+  transition: all .5s;
+}
+
+.text__link:hover{
+  background: #28bee2;
+  color: #146376;
+  box-shadow: 1px 1px 27px rgba(0, 0, 0, .5);
+}
+
+.text__link:active{
+  box-shadow: 1px 1px 27px rgba(0, 0, 0, .5) inset;
+}
+
+.trs0{
+  height: 40px;
+  padding: 5px;
+  background: #e2cd41;
+  border: 1px solid #b5a434;
+  margin: 5px 0;
+  width: 40%;
+  line-height: 30px;
+  font-size: 10px;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.block2:hover .trs0{
+  width: 100%;
+}
+
+.trs1{
+  transition-timing-function: ease;
+}
+
+.trs2{
+  transition-timing-function: linear;
+}
+
+.trs3{
+  transition-timing-function: ease-in;
+}
+
+.trs4{
+  transition-timing-function: ease-out;
+}
+
+.trs5{
+  transition-timing-function: ease-in-out;
+}
+
+.trs6{
+  transition-timing-function: step-start;
+}
+
+.trs7{
+  transition-timing-function: step-end;
+}
+
+.trs8{
+  transition-timing-function: steps(5, end);
+}
+
+.trs9{
+  transition-timing-function: steps(5, start);
+}
+
+.trs10{
+  transition-timing-function: cubic-bezier(.05,1,.88,0);
+}
+
+.an{
+  position: relative;
+  background: #ccc;
+}
+
+.go{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #333;
+  animation: tumbaymba 4s linear infinite paused;
+  top: 0;
+  left: 0;
+}
+
+.an:hover .go{
+  animation-play-state: running;
+}
+
+@keyframes tumbaymba{
+  0%{
+    top: 0;
+    left: 0;
+  }
+  25%{
+    top: 0;
+    left: 480px;
+  }
+  50%{
+    top: 480px;
+    left: 480px;
+  }
+  75%{
+    top: 480px;
+    left: 0;
+  }
+  100%{
+    top: 0;
+    left: 0;
+  }
+}
+
+.t{
+  padding-top: 30%;
+  box-sizing: border-box;
+}
+
+.trs{
+  color: #fff;
+  background: #333;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  transition: all 1s;
+}
+
+.t:hover .trs{
+  transform: rotate(360deg) scale(2) skewX(-40deg);
+}
+
+.vidres{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.vidres iframe, .vidres embed, .vidres object{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+
+@media screen and (max-width: 980px){
+  
+}
+
+@media screen and (max-width: 768px){
+  
+}

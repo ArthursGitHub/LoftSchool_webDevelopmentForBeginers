@@ -1,0 +1,30 @@
+.tabs__content-item {
+	display: none;
+
+	&.active {
+		display: block;
+	}
+}
+
+.tabs {
+	min-height: 300px;
+}
+
+.acco__content {
+	display: none;
+}
+
+.slider__item {
+	text-align: center;
+
+	img {
+		display: inline-block;
+	}
+}
+
+.bx-wrapper {
+	box-shadow: none !important;
+}
+
+
+

@@ -1,0 +1,79 @@
+body{
+  font: 1rem 'Open Sans', Arial,Tahoma,sans-serif;
+  color: #353535;
+  background: url(images/bg.png);
+  margin: 0;
+  text-align: justify;
+   text-transform: capitalize;
+}
+
+p{
+  text-indent: 20px;
+}
+
+.header{
+  text-align: center;
+  text-decoration: overline;
+}
+
+h1{
+  font-weight: 800;
+  text-shadow: 
+    1px 1px 1px #fff,
+    1px 1px 5px #000;
+ 
+}
+
+.block{
+  background: rgba(255, 255, 255, .9);
+  padding: 20px;
+  margin: 40px auto;
+  width: 500px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, .5);
+  border: 10px solid #777;
+}
+
+.list .item:nth-last-child(3n-1){
+  color: red;
+}
+
+.type i:nth-of-type(odd){
+  color: red;
+}
+
+#h1:after{
+  content: "!!!";
+  color: green;
+}
+
+a{
+  text-decoration: none;
+  transition: all .7s;
+}
+
+a:link{
+  color: #2e67c3;
+}
+
+a:visited{
+  color: #ff00f5;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+a:active{
+  color: green;
+}
+
+h1:target{
+  color: green;
+}
+
+/*
+комментарий
+браузер его не воспринимает
+*/
